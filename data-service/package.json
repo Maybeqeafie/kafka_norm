@@ -1,0 +1,21 @@
+{
+  "name": "3_lab_kafka_docker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "kafkajs": "^2.2.4",
+    "pg": "^8.10.0"
+  },
+  "devDependencies": {
+    "node-pg-migrate": "^6.2.2"
+  }
+}
