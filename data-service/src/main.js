@@ -31,22 +31,6 @@ const migrate = async () => {
 };
 
 migrate();
-// const createTableQuery = `
-//     CREATE TABLE IF NOT EXISTS users (
-//                                          id SERIAL PRIMARY KEY,
-//                                          name TEXT NOT NULL,
-//                                          surname TEXT NOT NULL
-//     );
-// `;
-//
-// pool.query(createTableQuery, (err, res) => {
-//     if (err) {
-//         console.error(err);
-//     } else {
-//         console.log('Table created successfully');
-//     }
-//
-// });
 
 const kafka = new Kafka({
     clientId: 'data-service',
